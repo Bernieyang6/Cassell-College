@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../dptm.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+.fixed-logo {
+    position: fixed; /* Fixes the logo position relative to the viewport */
+    top: 10px; /* Distance from the top */
+    left: 50px; /* Distance from the left */
+    width: 90px; /* Width of the logo */
+    height: auto; /* Auto height to maintain aspect ratio */
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+main {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0 0 1em;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 0.75em 1.5em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055b3;
+    text-decoration-color: aliceblue;
+    text-decoration-line: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 10px solid transparent;
+    transition: 0.5 ease;
+}
+
+footer {
+    text-align: center;
+    padding: 0.00001em 0;
+    background-color: #003366;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
