@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="logo" class="fixed-logo">
+        <img src="images/logo.png" alt="logo" class="fixed-logo">
         <h1>Cassell College Application Form</h1>
     </header>
     <main>
-        <form id="application-form">
+        <form id="application-form" action="/submit-application" method="POST">
             <div class="form-group">
                 <label for="first-name">First Name:</label>
                 <input type="text" id="first-name" name="first-name" required>
@@ -48,7 +48,7 @@
                     <option value="fighting">Fighting</option>
                 </select>
             </div>
-            <button type="submit"><a href="ap-sub.html">Apply Now</a></button>
+            <button type="submit">Apply Now</button>
         </form>
     </main>
     <footer>
