@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-color: orange;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.content{
+    max-width: 1000px; /* Adjusted max-width for larger screens */
+    margin:auto; /* Center the main content */
+    font-size: 20px; /* Adjusted font size for better readability */
+}
+
+.btn-bdg {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust color as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 999; /* Ensure button appears above other content */
+}
+
+.btn-bdg:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+}

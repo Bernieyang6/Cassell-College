@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/BG.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul li a {
+    position: relative; /* Make the anchor tag a positioned element */
+    display: inline-block; /* Display as inline block to wrap text around image */
+    text-decoration: none; /* Remove default underline */
+}
+
+ul li a img {
+    display: block; /* Ensure the image fills its containing space */
+    width: 250px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+ul li a span {
+    position: absolute; /* Position the text relative to its container */
+    bottom: 100px; /* Adjust as needed to position the text */
+    left: 50%; /* Align text to center */
+    transform: translateX(-50%); /* Center text horizontally */
+    /*background-color: rgba(255, 255, 255, 0.7); /* Background color for better readability */
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    color: rgb(252, 250, 250); /* Text color */
+    font-size: 20px; /* Text size */
+}
+
+ul li a span {
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.separator {
+    margin: 0 10px; /* Adjust the spacing between the buttons */
+    color:blue
+}
+
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.btn-clc{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust color as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 999; /* Ensure button appears above other content */
+}
+
+.btn-clc:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center the list items */
+}
+
+ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px; /* Add spacing between list items */
+}
+
+.separator {
+    margin: 0 5px; /* Adjust the spacing between the separators */
+    color: blue; /* Set separator color */
+}

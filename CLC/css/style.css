@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{ /* Adjust as needed */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/1-1920x1080-44e1108ee2deef769c9dde9c957c1087.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 80px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 10px solid transparent; /* Adjust border size as needed */
+    transition: 0.5 ease; /* Adjust transition speed as needed */
+}
+
+ul li a:hover{
+    background-color: #fff; /* Adjust color as needed */
+    color: #000;
+}
+
+/*ul li.active a{
+    background-color: #fff;
+    color: #000;
+}*/
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 1 ease;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color:darkorange;
+    color:#fff;
+}
+
+.sub-menu{
+    display: none;
+    top: 8%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(27, 98, 204);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 250px;
+    padding: 10px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
