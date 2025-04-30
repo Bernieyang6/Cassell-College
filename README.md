@@ -1,0 +1,8 @@
+This is a website for Cassell College. It is from the book called Dragon Raja. Written by Jiang Nan. He is my favourite writter and he graduated in the best college in China and read the Phd. in UW.
+
+Here is a intro for the part of the book: Lu Mingfei (路明非), is an underachieving, socially awkward 18-year-old who is constantly being rejected by universities. When his hopes seem lost, he receives a strange acceptance letter and a scholarship from the mysterious Cassell College in the United States. While the letter is immediately dismissed as a scam, Mingfei soon learns that people in the college are determined to get him enrolled, forcing him to choose between his current life and the dubious academy. 
+Publicly embarrassed after a failed attempt to confess to his crush, he is rescued by Chen Motong (陈墨瞳) "Nono", a sophomore from Cassell College, who finally convinces him to enroll at the school. 
+Lu Mingfei soon learns from his professors that dragons are real, and the purpose of the university is to train dragon slayers. Just like the rest of the students, he is a hybrid, a human with dragon genes. Hybrids manifest special and unique supernatural abilities, but Mingfei seems like a regular human, with no abilities whatsoever. Regardless, he is inexplicably given an "S-Rank" status and declared "unprecedentedly talented" by the principal. To make matters worse, he keeps being visited by a strange boy in elaborate visions. 
+When a living dragon is found in the Three Gorges Dam, the students will be forced to defend their college from the dragon's followers and hunt the beast down.
+
+I hope this website can give the readers joy.
